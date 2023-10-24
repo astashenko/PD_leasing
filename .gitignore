@@ -12,7 +12,6 @@ iframe_figures
 # ВАЖНО! не загрузить свои пароли
 /params.ipynb
 params.ipynb
-instructions.ipynb
 
 # во внешие репозитории данные не выкладываем
 /data/external/*
@@ -57,3 +56,5 @@ src/draft/*
 
 # references тоже не загружаем. там файлы BI
 /references/*
+
+instructions.ipynb
