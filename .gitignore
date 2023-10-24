@@ -1,0 +1,59 @@
+# Все промежуточные ноутбук файлы игнорируем
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/*.ipynb_checkpoints/
+
+# для проверки spell
+.vscode
+
+# для картинов plotly.io.renderers.default = 'iframe'  создается папка с картинками
+iframe_figures
+
+# ВАЖНО! не загрузить свои пароли
+/params.ipynb
+params.ipynb
+instructions.ipynb
+
+# во внешие репозитории данные не выкладываем
+/data/external/*
+!/data/external/readme.txt
+
+# Не нужно грузить сырые, промежуточные данные 
+# но сами папки /data/interm/auxilary и /data/interm/external_pkl должны быть созданы
+/data/raw
+/data/interm/*
+!/data/interm/auxilary/
+!/data/interm/external_pkl
+!/data/interm/external_to_zip
+!/data/interm/test
+
+
+/data/img/*
+
+/data/draft/*
+/src/testing/*
+/src/exploratory/*
+/src/external_scripts/*
+src/draft/*
+
+/data/html/*
+!/data/html/readme.txt
+
+/data/interm/auxilary/*
+!/data/interm/auxilary/readme.txt
+
+/data/interm/external_pkl/*
+!/data/interm/external_pkl/readme.txt
+
+/data/interm/external_to_zip/*
+!/data/interm/external_to_zip/readme.txt
+
+/data/interm/test/*
+!/data/interm/test/readme.txt
+
+# Готовые данные в зависимости от ситуации, если итог выборка, то есть смысл грузить
+/data/processed
+!/data/processed/*
+
+# references тоже не загружаем. там файлы BI
+/references/*
